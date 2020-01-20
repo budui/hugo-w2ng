@@ -27,7 +27,7 @@
   @apply border-b border-black;
 }
 .markdown blockquote {
-  @apply bg-gray-100 p-3 mx-3 my-2 border-l-4 border-gray-400;
+  @apply px-3 py-1 mx-3 border-l-2 border-black;
 }
 
 /* table */
@@ -50,7 +50,7 @@
   @apply border-dashed border-b border-black px-1 font-mono text-lg;
 }
 .markdown pre code {
-  @apply px-0 border-none;
+  @apply px-0 border-none text-base;
 }
 
 /* misc */

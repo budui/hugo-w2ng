@@ -1,8 +1,8 @@
 <div class="book-expand my-4 overflow-hidden border border-black">
     <label>
       <div class="book-expand-head flex justify-between  py-1 px-2 border-black border-b border-dotted">
-        <span>{{ default "Expand" (.Get 0) }}</span>
-        <span>{{ default "↕" (.Get 1) }}</span>
+        <span>{{ default "Expand" (.Get 0) | markdownify }}</span>
+        <span>{{ default "↕" (.Get 1) | markdownify }}</span>
       </div>
       <input type="checkbox" class="hidden" />
       <div class="book-expand-content py-1 px-2">

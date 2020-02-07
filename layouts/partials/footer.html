@@ -3,6 +3,9 @@
         <p>
             {{ .Page.Site.Params.Footer | markdownify }}
         </p>
+        {{ if .Params.single  }}
+        <p><a href="{{ .Page.Site.BaseURL }}">← back to home</a></p>
+        {{ end }}
     </div>
 </footer>
 

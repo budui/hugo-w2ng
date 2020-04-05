@@ -50,7 +50,8 @@
   @apply border-dashed border-b border-black px-1 font-mono text-lg;
 }
 .markdown pre code {
-  @apply px-0 border-none text-base;
+  font-size: 16px;
+  @apply px-0 border-none;
 }
 
 /* misc */
